@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html, body{font-family: 'Montserrat', sans-serif;}
+.pull-right{float: right;}
+.badge-primary {
+    color: #fff;
+    background-color: #007bff;
+}
+.badge-success {
+    color: #fff;
+    background-color: green;
+}
+.badge {
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+}
+.font-weight-normal{display: inline-block;line-height: 70px;font-size: 20px;padding-bottom: 20px;}
